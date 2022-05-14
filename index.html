@@ -30,7 +30,6 @@
         </nav>
     </header>
 
-
     <!-- general container -->
     <div class="container-fluid">
 
@@ -39,32 +38,81 @@
 
             <!-- Left decorative column -->
             <div class="col-1 .d-none .d-xl-block" id="LeftDecorativeColumn">
-                <div class="columnFilling"></div>
+                <img src="./img/columnaCortada3.jpg" class="columnPicture" alt="column">
             </div>            
             
             <!-- MainContent includes main image, carousel and cards inside -->
             <div class="col-12 col-xl-10" id="MainContent">
 
-                <div class="TestFilling"></div>
-
                 <!-- Photo terrace -->
                 <div class="row" id="presentation">
-                    <div class="col-12"></div>
+                    <div class="col-12">
+                        <div class="card border-0">
+                            <div class="card-body">                                
+                                <img src="./img/terraza1.jpg" class="card-img-top rounded-3" alt="terrace">
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
                 <!-- Text of presentation -->
                 <div class="row" id="textPresentation">
-                    <div class="col-12"></div>
+                    <div class="col-12">
+                        <div class="card rounded-pill align-middle textPill">
+                            <div class="card-body align-middle pb-1">
+                                <h1 class="text-center">RESTAURANTE ROMA</h1>                               
+                                <p class="text-center">Disfruta de la mejor cocina italiana en un entorno privilegiado...</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
                 <!-- carousel of dishes -->
                 <div class="row" id="dishesCarousel">
-                    <div class="col-12"></div>
+                    <div class="col-12">
+                        <div class="card border-0">
+                            <div class="card-body">
+                                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                                    <div class="carousel-indicators">
+                                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                    </div>
+                                    <div class="carousel-inner">
+                                      <div class="carousel-item active">
+                                        <img src="./img/pizza-960_720.jpg" class="d-block w-100" alt="pizza">
+                                      </div>
+                                      <div class="carousel-item">
+                                        <img src="./img/ragu.jpg" class="d-block w-100" alt="pasta">
+                                      </div>
+                                      <div class="carousel-item">
+                                        <img src="./img/panna-cotta-preview.jpg" class="d-block w-100" alt="...">
+                                      </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                      <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                      <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>                    
+                    </div>
                 </div>
 
                 <!-- general coments about menus and recipes -->
                 <div class="row" id="dishesText">
-                    <div class="col-12"></div>
+                    <div class="col-12">
+                        <div class="card rounded-pill align-middle textPill">
+                            <div class="card-body align-middle pb-1">
+                                <h2 class="text-center">NUESTRAS ESPECIALIDADES</h2>                               
+                                <p class="text-center">Pasta fresca, pizzas, carnes, pescados, entrantes y postres</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
                 <!-- container for cards with some examples of recipes -->
@@ -170,9 +218,8 @@
 
             <!-- Right decorative column -->
             <div class="col-1 .d-none .d-xl-block" id="RightDecorativeColumn">
-                <div class="columnFilling"></div>
+                <img src="./img/columnaCortada3.jpg" class="columnPicture" alt="column">
             </div>
-
         </div>
 
         <!-- Row2 contains Google maps -->

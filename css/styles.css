@@ -1,6 +1,7 @@
 
 .testText1 {
-    background-color: aqua;
+    background-color: gainsboro;    
+    border: 1px solid grey;
     width: 100%;
 }
 
@@ -27,8 +28,23 @@
 }
 
 .cardTestFilling {
-    background-color: orange;
+    background-color: gainsboro;
     border-radius: 10%;
-    border: 2px solid black;
+    border: 1px solid black;
 }
 
+.textPill {
+    background-color: gainsboro;    
+    border: 1px solid black;
+}
+
+.columnPicture {
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+    .columnPicture {
+        display: none;
+    }
+}
