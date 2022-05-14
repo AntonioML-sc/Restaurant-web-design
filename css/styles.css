@@ -1,0 +1,34 @@
+
+.testText1 {
+    background-color: aqua;
+    width: 100%;
+}
+
+#testText2 {
+    background-color: purple;
+}
+
+.columnFilling {
+    background-color: coral;
+    width: 100%;
+    height: 100%;
+}
+
+.chapiterFilling {
+    background-color: coral;
+    width: 100%;
+    height: 100%;
+}
+
+.TestFilling {
+    background-color: yellow;
+    width: 100%;
+    height: 150vh;
+}
+
+.cardTestFilling {
+    background-color: orange;
+    border-radius: 10%;
+    border: 2px solid black;
+}
+
