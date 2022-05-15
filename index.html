@@ -19,7 +19,7 @@
 </head>
 <body class="container-fluid">
     <!-- floating header -->
-    <header class="m-0 p-0 sticky-top" id="mainMenu">
+    <header class="m-0 p-0 sticky-top menuRow">
         <!-- restaurant's name -->
         <div class="row justify-content-center .d-none .d-xl-block" id="restaurantName">
             <div class="col-12 justify-content-center restName">
@@ -27,7 +27,7 @@
             </div>
         </div>
         <!-- chapiters and menu -->
-        <div class="row justify-content-center" id="mainMenuRow">
+        <div class="row justify-content-center">
             <!-- left chapiter. Display: none on small devices -->
             <div class="col-2 .d-none .d-xl-block" id="leftChapiter">
                 <img src="./img/capitelIzquierdo.jpg" class="columnChapiterLeft" alt="column">
@@ -35,9 +35,9 @@
             <!-- main menu -->
             <div class="col-12 col-xl-8 align-items-start navbar navbar-expand-lg navbar-dark bd-navbar py-0" id="mainMenu">
                 <nav class="container-fluid bd-gutter flex-wrap flex-lg-nowrap justify-content-center menuBar" aria-label="Main navigation">
-                    <a class="nav-link .text-dark fw-bold py-0 px-1 px-lg-2" href="./pages/restaurantMenu.html">Carta</a>            
-                    <a class="nav-link .text-dark fw-bold py-0 px-1 px-lg-2" href="./pages/contact.html">Contacto</a>
-                    <a class="nav-link .text-dark fw-bold py-0 px-1 px-lg-2" href="./pages/staff.html">Conócenos</a>                    
+                    <a class="nav-link text-reset .text-dark fw-bold py-0 px-1 px-lg-2" href="./pages/restaurantMenu.html">CARTA</a>            
+                    <a class="nav-link text-reset .text-dark fw-bold py-0 px-1 px-lg-2" href="./pages/contact.html">CONTACTO</a>
+                    <a class="nav-link text-reset .text-dark fw-bold py-0 px-1 px-lg-2" href="./pages/staff.html">NOSOTROS</a>                    
                 </nav>
             </div>
             <!-- right chapiter. Display: none on small devices -->
@@ -133,101 +133,125 @@
                 </div>
 
                 <!-- container for cards with some examples of recipes -->
-                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-4 row-cols-xxl-5 gy-3" id="RecipeCards">
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-4 row-cols-xxl-5 gy-3 gx-2 py-2" id="RecipeCards">
                     <div class="col">
-                        <div class="p-2 cardTestFilling">
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing 
-                                elit. Odit voluptatem nobis officiis temporibus, consectetur labore dolorum deleniti 
-                                vero incidunt eligendi illo, eaque recusandae beatae natus, qui fugit suscipit dolor enim?
-                            </p>
+                        <div class="card p-2 recipeCard">
+                            <img src="./img/pizza-generica.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-justify">
+                                <p class="card-text"> <strong>Pizza americana:</strong> 
+                                Base de tomate, mozzarella y orégano con: Bacon, ternera y cebolla caramelizada
+                                </p>
+                            </div>
                         </div>
                     </div>
                     <div class="col">
-                        <div class="p-2 cardTestFilling">
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing 
-                                elit. Odit voluptatem nobis officiis temporibus, consectetur labore dolorum deleniti 
-                                vero incidunt eligendi illo, eaque recusandae beatae natus, qui fugit suscipit dolor enim?
-                            </p>
+                        <div class="card p-2 recipeCard">
+                            <img src="./img/pizza-generica.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text"> <strong>Pizza americana:</strong> 
+                                Base de tomate, mozzarella y orégano con: Bacon, ternera y cebolla caramelizada
+                                </p>
+                            </div>
                         </div>
                     </div>
                     <div class="col">
-                        <div class="p-2 cardTestFilling">
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing 
-                                elit. Odit voluptatem nobis officiis temporibus, consectetur labore dolorum deleniti 
-                                vero incidunt eligendi illo, eaque recusandae beatae natus, qui fugit suscipit dolor enim?
-                            </p>
+                        <div class="card p-2 recipeCard">
+                            <img src="./img/pizza-generica.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text"> <strong>Pizza americana:</strong> 
+                                Base de tomate, mozzarella y orégano con: Bacon, ternera y cebolla caramelizada
+                                </p>
+                            </div>
                         </div>
                     </div>
                     <div class="col">
-                        <div class="p-2 cardTestFilling">
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing 
-                                elit. Odit voluptatem nobis officiis temporibus, consectetur labore dolorum deleniti 
-                                vero incidunt eligendi illo, eaque recusandae beatae natus, qui fugit suscipit dolor enim?
-                            </p>
+                        <div class="card p-2 recipeCard">
+                            <img src="./img/pizza-generica.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text"> <strong>Pizza americana:</strong> 
+                                Base de tomate, mozzarella y orégano con: Bacon, ternera y cebolla caramelizada
+                                </p>
+                            </div>
                         </div>
                     </div>
                     <div class="col">
-                        <div class="p-2 cardTestFilling">
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing 
-                                elit. Odit voluptatem nobis officiis temporibus, consectetur labore dolorum deleniti 
-                                vero incidunt eligendi illo, eaque recusandae beatae natus, qui fugit suscipit dolor enim?
-                            </p>
+                        <div class="card p-2 recipeCard">
+                            <img src="./img/pizza-generica.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text"> <strong>Pizza americana:</strong> 
+                                Base de tomate, mozzarella y orégano con: Bacon, ternera y cebolla caramelizada
+                                </p>
+                            </div>
                         </div>
                     </div>
                     <div class="col">
-                        <div class="p-2 cardTestFilling">
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing 
-                                elit. Odit voluptatem nobis officiis temporibus, consectetur labore dolorum deleniti 
-                                vero incidunt eligendi illo, eaque recusandae beatae natus, qui fugit suscipit dolor enim?
-                            </p>
+                        <div class="card p-2 recipeCard">
+                            <img src="./img/pizza-generica.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text"> <strong>Pizza americana:</strong> 
+                                Base de tomate, mozzarella y orégano con: Bacon, ternera y cebolla caramelizada
+                                </p>
+                            </div>
                         </div>
                     </div>
                     <div class="col">
-                        <div class="p-2 cardTestFilling">
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing 
-                                elit. Odit voluptatem nobis officiis temporibus, consectetur labore dolorum deleniti 
-                                vero incidunt eligendi illo, eaque recusandae beatae natus, qui fugit suscipit dolor enim?
-                            </p>
+                        <div class="card p-2 recipeCard">
+                            <img src="./img/pizza-generica.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text"> <strong>Pizza americana:</strong> 
+                                Base de tomate, mozzarella y orégano con: Bacon, ternera y cebolla caramelizada
+                                </p>
+                            </div>
                         </div>
                     </div>
                     <div class="col">
-                        <div class="p-2 cardTestFilling">
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing 
-                                elit. Odit voluptatem nobis officiis temporibus, consectetur labore dolorum deleniti 
-                                vero incidunt eligendi illo, eaque recusandae beatae natus, qui fugit suscipit dolor enim?
-                            </p>
+                        <div class="card p-2 recipeCard">
+                            <img src="./img/pizza-generica.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text"> <strong>Pizza americana:</strong> 
+                                Base de tomate, mozzarella y orégano con: Bacon, ternera y cebolla caramelizada
+                                </p>
+                            </div>
                         </div>
                     </div>
                     <div class="col">
-                        <div class="p-2 cardTestFilling">
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing 
-                                elit. Odit voluptatem nobis officiis temporibus, consectetur labore dolorum deleniti 
-                                vero incidunt eligendi illo, eaque recusandae beatae natus, qui fugit suscipit dolor enim?
-                            </p>
+                        <div class="card p-2 recipeCard">
+                            <img src="./img/pizza-generica.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text"> <strong>Pizza americana:</strong> 
+                                Base de tomate, mozzarella y orégano con: Bacon, ternera y cebolla caramelizada
+                                </p>
+                            </div>
                         </div>
                     </div>
                     <div class="col">
-                        <div class="p-2 cardTestFilling">
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing 
-                                elit. Odit voluptatem nobis officiis temporibus, consectetur labore dolorum deleniti 
-                                vero incidunt eligendi illo, eaque recusandae beatae natus, qui fugit suscipit dolor enim?
-                            </p>
+                        <div class="card p-2 recipeCard">
+                            <img src="./img/pizza-generica.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text"> <strong>Pizza americana:</strong> 
+                                Base de tomate, mozzarella y orégano con: Bacon, ternera y cebolla caramelizada
+                                </p>
+                            </div>
                         </div>
                     </div>
                     <div class="col">
-                        <div class="p-2 cardTestFilling">
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing 
-                                elit. Odit voluptatem nobis officiis temporibus, consectetur labore dolorum deleniti 
-                                vero incidunt eligendi illo, eaque recusandae beatae natus, qui fugit suscipit dolor enim?
-                            </p>
+                        <div class="card p-2 recipeCard">
+                            <img src="./img/pizza-generica.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text"> <strong>Pizza americana:</strong> 
+                                Base de tomate, mozzarella y orégano con: Bacon, ternera y cebolla caramelizada
+                                </p>
+                            </div>
                         </div>
                     </div>
                     <div class="col">
-                        <div class="p-2 cardTestFilling">
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing 
-                                elit. Odit voluptatem nobis officiis temporibus, consectetur labore dolorum deleniti 
-                                vero incidunt eligendi illo, eaque recusandae beatae natus, qui fugit suscipit dolor enim?
-                            </p>
+                        <div class="card p-2 recipeCard">
+                            <img src="./img/pizza-generica.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text"> <strong>Pizza americana:</strong> 
+                                Base de tomate, mozzarella y orégano con: Bacon, ternera y cebolla caramelizada
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -260,25 +284,26 @@
         </div>
 
         <!-- Row3: decorative under colums foundations -->
-        <div class="row .d-none .d-xl-block">
-            <div class="col-12 colFoundations">
-
-            </div>
+        <div class="row .d-none .d-xl-block mx-0">
+            <div class="col-12 colFoundations"></div>
         </div>
 
         <!-- Row4 contains Footer -->
         <div class="row" id="row3Footer">
-            <div class="col-12">
-                <p id="testText2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto eos recusandae, voluptate illo eum, 
-                    fugit magnam voluptas, ullam officiis repudiandae similique voluptates perspiciatis corrupti incidunt hic! 
-                    Perferendis iusto ducimus necessitatibus.
+            <div class="col-12 text-center">
+                <p id="indexFooter">Dirección: Carrer de l'Admirall Cadarso, 26, Valencia 46005 <br>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+                        <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+                    </svg>
+                    Teléfono: +34 XXX XXX XXX <br>
+                    Email: loquesea@dondesea.com <br>
+                    Síguenos en Facebook: <br>                    
                 </p>
             </div>
         </div>
-
     </div>
 
-    <!-- scrip necesary for Bootstrap -->
+    <!-- scrip necessary for Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" 
         crossorigin="anonymous">

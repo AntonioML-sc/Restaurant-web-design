@@ -1,42 +1,13 @@
 
-.testText1 {
-    background-color: gainsboro;    
-    border: 1px solid grey;
-    width: 100%;
-}
-
-#testText2 {
+#indexFooter {
     background-color: rgb(57, 57, 57);
     color: white;
-}
-
-.columnFilling {
-    background-color: coral;
-    width: 100%;
-    height: 100%;
-}
-
-.chapiterFilling {
-    background-color: coral;
-    width: 100%;
-    height: 100%;
-}
-
-.TestFilling {
-    background-color: yellow;
-    width: 100%;
-    height: 150vh;
-}
-
-.cardTestFilling {
-    background-color: gainsboro;
-    border-radius: 10%;
-    border: 1px solid black;
 }
 
 .textPill {
     background-color: gainsboro;    
     border: 1px solid black;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .columnPicture {
@@ -69,13 +40,19 @@
     .restName {
         display: none;
     }
+    .colFoundations {
+        display: none;
+    }
+}
+
+.menuRow {
+    color: rgb(94, 94, 94);
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .restName {
     background: linear-gradient(rgb(253, 252, 252), rgb(202, 202, 202));   
     border: 1px solid rgb(163, 163, 163);
-    color: rgb(94, 94, 94);
-    font-family: 'Times New Roman', Times, serif;
     font-weight: bolder;
     letter-spacing: 1em;
 }
@@ -96,7 +73,13 @@
 }
 
 .colFoundations {
-    background-color: gainsboro;
-    height: 1em;
+    background-color: rgb(198, 197, 197);
+    height: 0.5em;
     border: 1px solid rgb(163, 163, 163);
+}
+
+.recipeCard {
+    background-color: bisque;
+    border-radius: 3%;
+    border: 1px solid black;
 }
