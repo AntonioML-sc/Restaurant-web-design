@@ -6,7 +6,8 @@
 }
 
 #testText2 {
-    background-color: purple;
+    background-color: rgb(57, 57, 57);
+    color: white;
 }
 
 .columnFilling {
@@ -86,4 +87,16 @@
     border-right: 1px solid rgb(163, 163, 163);
     border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50%;
+}
+
+.mapCol {
+    height: 25em;
+    background-color: gainsboro;
+    border: 1px solid rgb(163, 163, 163);
+}
+
+.colFoundations {
+    background-color: gainsboro;
+    height: 1em;
+    border: 1px solid rgb(163, 163, 163);
 }
