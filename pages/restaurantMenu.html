@@ -22,7 +22,7 @@
         <!-- restaurant's name -->
         <div class="row justify-content-center .d-none .d-xl-block" id="restaurantName">
             <div class="col-12 justify-content-center restName">
-                <h1 class="text-center">RISTORANTE OLIMPVS</h1>
+                <h1 class="text-center">RISTORANTE OLYMPVS</h1>
             </div>
         </div>
         <!-- chapiters and menu -->
@@ -63,7 +63,7 @@
             <div class="col-12 col-xl-10 col-xxl-8" id="MainContent">
 
                 <!-- Menu - general -->
-                <div class="row justify-content-center">
+                <div class="row justify-content-center" id="menuIndex">
                     <div class="col-12 col-sm-10 col-md-8 col-lg-6 col-xl-4 p-2 menuSections">
                         <div class="row py-1 px-3">
                             <div class="col text-center rounded-pill toPizzas">
@@ -99,8 +99,7 @@
                                     <a class="nav-link text-reset fw-bold py-0 px-1 px-lg-2" href="#menuStarters">ENTRANTES</a>
                                 </nav>
                             </div>
-                        </div>
-                        
+                        </div>                        
                         <div class="row py-1 px-3">
                             <div class="col text-center rounded-pill toDessert">
                                 <nav>
@@ -111,7 +110,7 @@
                         <div class="row py-1 px-3">
                             <div class="col text-center rounded-pill toDrinks">
                                 <nav>
-                                    <a class="nav-link text-reset fw-bold py-0 px-1 px-lg-2" href="#menuDrinks">BEBIDAS</a>
+                                    <a class="nav-link text-reset fw-bold py-0 px-1 px-lg-2" href="#menuDrinks">VINOS</a>
                                 </nav>
                             </div>
                         </div>
@@ -121,63 +120,132 @@
                 <!-- Pizza -->
                 <div class="row justify-content-center py-1 py-md-2 py-lg-3 py-xl-4" id="menuPizza">
                     <div class="col-12 col-sm-10 col-md-8 col-lg-6 col-xl-4 p-2 col-12 col-sm-10 col-md-8 col-lg-8 col-xl-6 p-2 menuPizza">
-                        <p class="text-center">
-                            gjkflsñlkjfg <br>
-                            jkdlsañhfuoiwa <br>
-                            hfedjaldskj
+                        <p class="lh-lg fst-italic menusFont">
+                            <strong>Da Saveria</strong> (Tomate, mozzarella, panceta y rúcula) <br>
+                            <strong>Calabrese</strong> (Tomate, mozzarella, carne picada y hongos) <br>
+                            <strong>Rústica</strong> (Tomate, jamón de parma, escamas de parmesano y rúcula) <br>
+                            <strong>Quattro Stagioni</strong> (Tomate, mozzarella, jamón york, champiñones, alcachofa y aceitunas) <br>
+                            <strong>Boscaiola</strong> (Tomate, mozzarella, scamorza, speck y champiñones) <br>
+                            <strong>Funghi</strong> (Tomate, mozzarella, champiñones y cebolla) <br>
+                            <strong>Prosciutto</strong> (Tomate, mozzarella, jamón york) <br>
+                            <strong>Margherita</strong> (Tomate, mozzarella y orégano) <br>
+                            <strong>Tonno</strong> (Tomate, mozzarella, atún, cebolla y aceitunas) <br>
+                            <strong>Napoletana</strong> (Tomate, mozzarella, anchoas, aceitunas verdes y negras) <br>
+                            <strong>Vegetariana</strong> (Tomate, mozzarella, pimiento, berenjena y cebolla) <br>
+                            <strong>Biancaneve</strong> (Mozzarella, ricotta, tomates cherry y speck) <br>
+                            <a class="nav-link text-reset text-end fw-bold py-0 px-1 px-lg-2" href="#row1MainContent">SUBIR</a>
                         </p>
                     </div>
                 </div>
 
                 <!-- Pasta -->
-                <div class="row" id="menuPasta">
-                    <div class="col-12">
-                        
-                        
+                <div class="row justify-content-center py-1 py-md-2 py-lg-3 py-xl-4" id="menuPasta">
+                    <div class="col-12 col-sm-10 col-md-8 col-lg-6 col-xl-4 p-2 col-12 col-sm-10 col-md-8 col-lg-8 col-xl-6 p-2 menuPasta">
+                        <p class="lh-lg fst-italic menusFont">
+                            <strong> Spaghetti alla bolognese </strong><br>
+                            <strong> Spaghetti alla Carbonara </strong><br>
+                            <strong> Spaghetti al Pesto </strong><br>
+                            <strong> Spaghetti Broccoli y Anchoas </strong><br>
+                            <strong> Spaghetti alle Vongole </strong><br>
+                            <strong> Spaghetti Langostinos y Espárragos Trigueros </strong><br>
+                            <strong> Spaghetti ai Funghi Porcini con Broccoli o Espárragos </strong><br>
+                            <strong> Spaghetti ai frutti di mare </strong><br>
+                            <strong> Lasagna de Carne o Verdura </strong><br>
+                            <strong> Cannelloni de Carne de Ternera </strong><br>
+                            <strong> Fettuccine ai Funghi Porcini </strong><br>
+                            <strong> Fettuccine alla Papalina </strong><br>
+                            <strong> Fettuccine al Branzino </strong><br>
+                            <strong> Fettuccine Salmón y Espárragos </strong><br>
+                            <strong> Fettuccine alla campagnola </strong><br>
+                            <strong> Fettuccine con boletus y trufa </strong><br>
+                            <strong> Tortellini Panna e Prosciutto </strong><br>
+                            <strong> Trofie alla Sorrentina </strong><br>
+                            <strong> Trofie con Lubina y Cigalas </strong><br>
+                            <strong> Ravioli di Ricotta e Spinaci </strong><br>
+                            <strong> Ravioli di Carne </strong><br>
+                            <strong> Ravioli Funghi Porcini </strong><br>        
+                        </p>
+                        <a class="nav-link text-reset text-end fw-bold py-0 px-1 px-lg-2" href="#row1MainContent">SUBIR</a>                       
                     </div>
                 </div>
 
                 <!-- Meat -->
-                <div class="row" id="menuMeat">
-                    <div class="col-12">
-
-
+                <div class="row justify-content-center py-1 py-md-2 py-lg-3 py-xl-4" id="menuMeat">
+                    <div class="col-12 col-sm-10 col-md-8 col-lg-6 col-xl-4 p-2 col-12 col-sm-10 col-md-8 col-lg-8 col-xl-6 p-2 menuMeat">
+                        <p class="lh-lg fst-italic menusFont">
+                            <strong> Carpaccio di carne (ANGUS)</strong> (Finas láminas de Ternera, Virutas de Parmesano, Rúcula y Limón) <br>
+                            <strong> Carpaccio di Bresaola</strong> (Finas láminas de Ternera Curada, Virutas de Parmesano, Rúcula y Limón) <br>
+                            <strong> Scaloppine de Ternera </strong><br>
+                            <strong> Entrecot de Ternera </strong><br>
+                            <strong> Centro de Solomillo </strong><br>
+                        </p>
+                        <a class="nav-link text-reset text-end fw-bold py-0 px-1 px-lg-2" href="#row1MainContent">SUBIR</a>
                     </div>
                 </div>
 
                 <!-- Fish -->
-                <div class="row" id="menuFish">
-                    <div class="col">
-
-
+                <div class="row justify-content-center py-1 py-md-2 py-lg-3 py-xl-4" id="menuFish">
+                    <div class="col-12 col-sm-10 col-md-8 col-lg-6 col-xl-4 p-2 col-12 col-sm-10 col-md-8 col-lg-8 col-xl-6 p-2 menuFish">
+                        <p class="lh-lg fst-italic menusFont">
+                            <strong> Langostinos en tempura </strong><br>
+                            <strong> Calamar de playa </strong><br>
+                            <strong> Calamar pequeño </strong><br>
+                            <strong> Sepionet de playa </strong><br>
+                            <strong> Almejas a la marinera </strong><br>
+                            <strong> Gambas a la plancha </strong><br>
+                            <strong> Cigalas a la plancha </strong><br>
+                        </p>
+                        <a class="nav-link text-reset text-end fw-bold py-0 px-1 px-lg-2" href="#row1MainContent">SUBIR</a>
                     </div>
                 </div>
 
                 <!-- Entrantes -->
-                <div class="row" id="menuStarters">
-                    <div class="col">
-
-
+                <div class="row justify-content-center py-1 py-md-2 py-lg-3 py-xl-4" id="menuStarters">
+                    <div class="col-12 col-sm-10 col-md-8 col-lg-6 col-xl-4 p-2 col-12 col-sm-10 col-md-8 col-lg-8 col-xl-6 p-2 menuStarter">
+                        <p class="lh-lg fst-italic menusFont">
+                            <strong> Antipasto Italiano </strong><br>
+                            <strong> Tabla de Quesos Italianos </strong><br>
+                            <strong> Insalata Caprese con Mozzarella di Bufala</strong> (Filetes de Tomate, Mozzarella di Bufala y Albahaca) <br>
+                            <strong> Insalata Speciale</strong> (Ensalada Mézclum, Tomate, Atún, Aceitunas, Huevo duro, Anchoas)  <br>
+                        </p>
+                        <a class="nav-link text-reset text-end fw-bold py-0 px-1 px-lg-2" href="#row1MainContent">SUBIR</a>
                     </div>
                 </div>
 
                 <!-- Desserts -->
-                <div class="row" id="menuDessert">
-                    <div class="col">
-
-
+                <div class="row justify-content-center py-1 py-md-2 py-lg-3 py-xl-4" id="menuDessert">
+                    <div class="col-12 col-sm-10 col-md-8 col-lg-6 col-xl-4 p-2 col-12 col-sm-10 col-md-8 col-lg-8 col-xl-6 p-2 menuDesserts">
+                        <p class="lh-lg fst-italic menusFont">
+                            <strong> Tiramisú </strong><br>
+                            <strong> Panna Cotta con dulce de leche o Chocolate o Frutos Rojos </strong><br>
+                            <strong> Tarta de queso casera con arándanos </strong><br>
+                            <strong> Crêpes con Helado o Nata y Chocolate </strong><br>
+                            <strong> Copa de Helados Italianos </strong><br>
+                        </p>
+                        <a class="nav-link text-reset text-end fw-bold py-0 px-1 px-lg-2" href="#row1MainContent">SUBIR</a>
                     </div>
                 </div>
-
                 
                 <!-- Drinks -->
-                <div class="row" id="menuDrinks">
-                    <div class="col">
-
-
+                <div class="row justify-content-center py-1 py-md-2 py-lg-3 py-xl-4" id="menuDrinks">
+                    <div class="col-12 col-sm-10 col-md-8 col-lg-6 col-xl-4 p-2 col-12 col-sm-10 col-md-8 col-lg-8 col-xl-6 p-2 menuDrink">
+                        <p class="lh-lg fst-italic menusFont">
+                            <strong> LAMBRUSCO</strong> rossato <br>
+                            <strong> LAMBRUSCO</strong> rosso(Módena) <br>
+                            <strong> SANGUE DE GIUDA</strong> rosso(Oltrepò Pavese) <br>
+                            <strong> FRAGOLINO</strong> rosso(Veneto) <br>
+                            <strong> MOSCATO</strong> bianco(Piamonte) <br>
+                            <strong> PROSECCO</strong> Spumante bianco (Veneto) <br>
+                            <strong> FRASCATI</strong> (Lazio) <br>
+                            <strong> CHIANTI LEONARDO Riserva </strong>(Toscana) <br>
+                            <strong> VALPOLICELLA Classico LAMBERTI </strong>(Veneto) <br>
+                            <strong> MONTEPULCIANO D´ABRUZZO MASCIARELLI </strong>(Abruzzo) <br>
+                            <strong> ZABÙ NERO D´AVOLA </strong>(Sicilia) <br>
+                            <strong> NEGROAMARO I MURI </strong>(Puglia) <br>
+                        </p>
+                        <a class="nav-link text-reset text-end fw-bold py-0 px-1 px-lg-2" href="#row1MainContent">SUBIR</a>
                     </div>
                 </div>
-
             </div>
 
             <!-- Right decorative column -->

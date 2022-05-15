@@ -86,6 +86,10 @@
 
 /* tyles for menu */
 
+.menusFont {    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .toPizzas {
     background-color: rgb(254, 221, 180);
     border: 1px solid black;
@@ -129,6 +133,42 @@
 
 .menuPizza {
     background-color: rgb(254, 221, 180);
+    border: 1px solid black;
+    border-radius: 1em;
+}
+
+.menuPasta {
+    background-color: rgb(255, 239, 209);
+    border: 1px solid black;
+    border-radius: 1em;
+}
+
+.menuMeat {
+    background-color: rgb(251, 200, 172);
+    border: 1px solid black;
+    border-radius: 1em;
+}
+
+.menuFish {
+    background-color: rgb(203, 237, 251);
+    border: 1px solid black;
+    border-radius: 1em;
+}
+
+.menuStarter {
+    background-color: rgb(214, 255, 185);
+    border: 1px solid black;
+    border-radius: 1em;
+}
+
+.menuDesserts {
+    background-color: rgb(248, 222, 252);
+    border: 1px solid black;
+    border-radius: 1em;
+}
+
+.menuDrink {
+    background-color: rgb(255, 172, 172);
     border: 1px solid black;
     border-radius: 1em;
 }
