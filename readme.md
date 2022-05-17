@@ -28,3 +28,9 @@ forma distinta (o no se mostrarán) dependiendo del tamaño de la pantalla.
 #### ENLACE GITHUB PAGES:
 
 https://antonioml-sc.github.io/Restaurant-web-design/
+
+#### AGRADECIMIENTOS Y CRÉDITOS:
+
+A GeeksHubs, por la formación que estoy recibiendo
+
+A www.freepik.com, por el diseño original de las columnas
