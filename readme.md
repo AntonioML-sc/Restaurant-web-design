@@ -14,10 +14,10 @@ Este es un trabajo aún en desarrollo.
 
 La web dispone de 4 páginas, con enlaces de navegación entre ellas:
 
-1- Home, en index.html
-2- La carta del restaurante, en menu.html
-3- Contacto, en contact.html
-4- Información sobre el personal del establecimiento en staff.html
+1- Home, en index.html <br>
+2- La carta del restaurante, en menu.html <br>
+3- Contacto, en contact.html <br>
+4- Información sobre el personal del establecimiento en staff.html <br>
 
 Se ha dispuesto de muchos elementos decorativos innecesarios simplemente para experimentar con las distintas opciones para hacer el diseño responsive, con elementos que se mostrarán de forma distinta (o no se mostrarán) dependiendo del tamaño de la pantalla.
 
